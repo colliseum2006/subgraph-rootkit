@@ -1,3 +1,26 @@
+type Approval @entity {
+  "This entity represents Approval of RootKit user address"
+  id: ID!
+  _owner: Bytes! 
+  "Owner address"
+  address: String!
+  "User transaction"
+  transactionCount: Int!
+}
+type OwnershipTransferred @entity {
+  "This entity represents Ownership Transferred RootKit"
+  id: ID!
+  "New Owner"
+  newOwner: Bytes!
+  "New Owner address"
+  address: String!
+}
+type Transfer @entity {
+  "This entity represents RootKit Transfer"
+  id: ID!
+  "Total amount of Transferred RootKit"
+  value: BigInt!
+}
 type ExampleEntity @entity {
   id: ID!
   count: BigInt!
