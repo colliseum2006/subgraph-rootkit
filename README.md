@@ -1,6 +1,8 @@
 # subgraph-rootkit
 This is our subgraph, a collection of GraphQL schemas and mappings that parse the events broadcast by the Rootkit on the Ethereum blockchain.
 
+Rootkit is a highly advanced new DeFi protocol that pushes the limits of financial wizardry. Using a combination of permanent liquidity locks and a fixed supply currency, Rootkit creates a mathematical price floor.
+
 Our smart contracts can be found in this repository https://etherscan.io/address/0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e#code.
 
 # Development
